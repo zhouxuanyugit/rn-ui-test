@@ -20,7 +20,7 @@ ButtonDemo.propTypes = {
   color: PropTypes.string
 }
 
-export default class RadioView extends Component {
+export class RadioView extends Component {
   render() {
     let color = this.props.checked ? 'rgb(0, 200, 171)' : '#fff';
     return (
